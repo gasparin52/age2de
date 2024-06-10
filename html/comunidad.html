@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles.css">
+    <link rel="icon" href="../assets/transparentes/logo_Age.png">
+    <title>Age of Empires 2 DE</title>
+</head>
+<body>
+    <header>
+        <div id="volver_arriba" class="imagen_arriba">
+            <img src="../assets/transparentes/logo largo.png" alt="aoe logo">
+        </div>
+        <nav class="barra_nav">
+            <div class="nav_left">
+                <ul>
+                    <li><a href="./index.html">Inicio</a></li>
+                    <li><a href="./unidades.html">Unidades</a></li>
+                    <li><a href="./civilizaciones.html">Civilizaciones</a></li>
+                    <li><a href="./novedades.html">Novedades</a></li>
+                    <li><a href="./comunidad.html" class="indicador_pagina">Comunidad</a></li>
+                </ul>
+            </div>
+            <div class="nav_right">
+                <ul class="boton_registro">
+                    <li><a href="./registro.html">Registro</a></li>
+                    <div>
+                        <img src="../assets/gif/arquero_estatico.ico" alt="arquero" class="arquero_estatico">
+                        <img src="../assets/gif/arquero.gif" alt="arquero" class="arquero">
+                    </div>
+                </ul>
+            </div>
+        </nav>
+        <img src="" alt="">
+        <h1></h1>
+    </header>
+
+    <!-- boton arriba  -->
+    <a href="#volver_arriba">
+        <div class="boton_arriba">
+            <img src="../assets/gif/caballero.ico" alt="arriba" class="arriba_estatico">
+            <img src="../assets/gif/caballero.gif" alt="arriba_imagen" class="arriba_imagen">
+            <p>Arriba</p>
+        </div>
+    </a>
+
+<!-- comienza el contenido de la pagina------------------------------------ -->
+
+
+    <!-- juego----------------------------- -->
+
+    <section class="titulos_comunidad">
+    <h1>¡Binvenidos a la comunidad!</h1>
+
+    <h2>Derriba la torre</h2>
+    <h3>Acierta el numero para derribar la torre</h3>
+
+    </section>
+    <div class="derribar_torres">
+        <div class="contenedor_torres">
+            <div class="torre_izquierda">
+                <img src="../assets/torres/torre.gif" id="img_t_izquierda" alt="">
+                <h3>Vida de tu torre:</h3>
+                <textarea readonly class="puntajes" id="vida_usuario">100</textarea>
+                <textarea id="atack_usuario" class="puntajes" placeholder="Ingrese rango de ataque(de 0 a 36)"></textarea>
+            </div>
+            <div class="torre_derecha">
+                <img src="../assets/torres/torre.gif" id="img_t_derecha" alt="">
+                <h3>Vida de torre enemiga:</h3>
+                <textarea readonly class="puntajes" id="vida_maquina">100</textarea>
+                <textarea readonly class="puntajes" id="atack_maquina" placeholder="Rango de ataque enemigo"></textarea>
+            </div>
+        </div>
+        <form action="" class="formulario_juego">
+            <div class="botones_juego">
+                <button id="atacar" type="button" class="boton_general">¡Ataca!</button>
+                <button type="button" class="boton_general" id="reinicio">Reinico</button>
+            </div>
+        </form>
+    </div>
+
+    <!-- comentarios---------------------- -->
+<!-- 
+    <form action="" class="publicaciones">
+        <div class="input_comentario">
+            <h1>Publica algo!!</h1>
+            <textarea name="enviar_comentarios" id="enviar_comentarios" rows="14" placeholder="escribe tu comentario aquí"></textarea>
+            <button class="boton_general" id="boton_comentarios">Compartir</button>
+        </div>
+        <div class="contendor_comentarios" id="contendor_comentarios">
+            <div>comentarios: </div>
+        </div>
+    </form> -->
+    
+
+    <!-- finaliza el contenido------------------ --------------- -->
+
+    <footer class="foot_container">
+        <ul class="redes_sociales">
+            <li><a href="https://www.instagram.com/"><img src="../assets/insta-icon.png" alt="instagram"></a></li>
+            <li><a href="https://www.facebook.com/"><img src="../assets/face-icon.png" alt="facebook"></a></li>
+            <li><a href="https://twitter.com/"><img src="../assets/x-icon.png" alt="x"></a></li>
+        </ul>
+        <ul class="foot_info">
+            <li>Franco Damian Aller</li>
+            <li>Legajo: 1143498</li>
+            <li>Age of Empires no patrocina este trabajo practico final</li>
+        </ul>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+</html>
