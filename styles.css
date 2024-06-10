@@ -37,8 +37,9 @@ html {
 .barra_nav {
     background-color: var(--azul);
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 1fr 1fr;
     grid-auto-rows: 45px;
+    padding: 0 5px;
     border-bottom: solid 2px var(--dorado);
     border-top: solid 2px var(--dorado);
     font-family: 'Times New Roman', Times, serif;
@@ -49,7 +50,8 @@ html {
     list-style: none;
     color: var(--dorado);
     font-weight: bold;
-    font-size: 15px;
+    font-size: 13px;
+    padding: 3px;
 }
 
 .barra_nav ul a:hover {
@@ -65,7 +67,7 @@ html {
 }
 
 .nav_right {
-    padding: 5px 40px;
+    padding: 5px 10px;
 }
 
 .nav_right ul {
@@ -353,7 +355,7 @@ html {
 }
 
 .submenu_inicio img {
-    height: 120px;
+    height: 100px;
     width: auto;
     border-radius: 10%;
 }
@@ -373,7 +375,7 @@ html {
 
 .submenu_inicio img:hover {
     width: auto;
-    height: 118px;
+    height: 102px;
 }
 
 /* query mediano submenu -------- */
@@ -545,9 +547,9 @@ html {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-auto-rows: auto;
-    padding: 15px;
-    line-height: 30px;
-    font-size: 17px;
+    padding: 5px;
+    line-height: 22px;
+    font-size: 15px;
     border-top: solid 1px var(--dorado);
 }
 
