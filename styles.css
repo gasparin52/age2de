@@ -341,14 +341,9 @@ html {
 
 /* sub menu  */
 
-.pagina_inicio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
 .submenu_inicio {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 10px;
 }
 
@@ -360,7 +355,7 @@ html {
 }
 
 .submenu_inicio img {
-    height: 100px;
+    height: 80px;
     width: auto;
     border-radius: 10%;
 }
@@ -386,15 +381,21 @@ html {
 /* query mediano submenu -------- */
 
 @media (min-width: 767px) {
+    .submenu_inicio {
+        display: flex;
+        justify-content: center;
+        margin: 10px 0 40px 0;
+    }
+
     
     .submenu_inicio img {
-        height: 150px;
+        height: 110px;
         width: auto;
         border-radius: 10%;
     }
     
     .submenu_inicio img:hover {
-        height: 148px;
+        height: 112px;
         width: auto;
     }
 }
@@ -427,27 +428,27 @@ html {
 
 .video_trailer {
     display: flex;
-    justify-items: center;
+    justify-content: center;
     flex-direction: column;
+    padding: 0 60px;
 }
 
-.video_trailer div {
+.video_trailer div{
     height: auto;
     width: 300px;
-    margin: 40px;
 }
 
 @media (min-width: 767px) {
     .video_trailer div {
-        height: 500px;
-        width: auto;
+        height: auto;
+        width: 800px;
     }
 }
 
 @media (min-width: 1070px) {
     .video_trailer div {
-        height: 650px;
-        width: auto;
+        height: auto;
+        width: 1200px;
     }
 }
 
@@ -484,15 +485,16 @@ html {
     grid-template-columns: 0% 100%;
 }
 
-.info_age img {
-    height: 200px;
-    opacity: 20%;
-}
-
-.info_age div {
+.info_chino, .info_ingles, .info_juana {
     padding: 30px;
     text-align: center;
     width: 400px;
+}
+
+.info_age .info_txt {
+    padding: 30px;
+    text-align: center;
+    width: auto;
 }
 
 .info_age h2 {
@@ -514,20 +516,20 @@ html {
 /* query mediano inicio -------- */
 
 @media (min-width: 767px) {
-    .info_age img {
-        opacity: 30%;
-    }
-
-    .info_age p {
-        font-size: 22px;
-        text-align: right;
-    }
-
-    .titulo_info h2 {
-        font-size: 50px;
+    .info_chino, .info_ingles, .info_juana {
+        padding: 30px;
         text-align: center;
-        margin: 150px 40px 50px 40px;
+        width: 500px;
     }
+    
+    .info_age .info_txt {
+        padding: 30px;
+        text-align: center;
+        width: auto;
+        height: 400px;
+    }
+    
+
 }
 
 @media (min-width: 1070px) {
